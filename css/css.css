@@ -1,0 +1,53 @@
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    background-color: rgb(205, 255, 243);
+    width: 100%;height: 100vh;
+    background-size: cover;
+}
+nav
+{
+    width: 100;
+    height: 15vh;
+    background: gold;
+    display: flex;
+    justify-content: space-between;
+}
+nav.head
+{
+    width: 50;
+    height: 25vh;
+    display: flex;
+    justify-content: space-between;
+    word-wrap: normal;
+}
+main
+{
+    width: 100;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ section
+ {
+
+    font-style: normal;
+    font-size: medium;
+    display: flex;
+    justify-content: left;
+    font-style: oblique;
+    /* border: 5px solid red; */
+}
+section.body
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    
+}
+
+</style>

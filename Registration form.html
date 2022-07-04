@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body
+    {
+        background-color: aqua;
+    }
+    h2
+    {
+        text-align: center;
+    }
+    *
+    {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        box-sizing: border-box;
+    }
+    button
+    {
+    background-color: rgb(30, 16, 16);
+    font-size:x-large;
+    color: rgb(254, 253, 255);
+    margin: auto;
+    
+    }
+    
+</style>
+<body>
+    <h2>STUDENT REGISTRATION FORM</h2>
+    <form>
+        <fieldset>
+            <legend>Enter valid details only</legend>
+            <label>Name:
+                <input type="text" name="name" placeholder="type your full name"><br><br>
+            </label>
+            <label>Gender:</label>
+                <input type="radio" id="Gender" name="Gender" value="Male"/>Male
+                <input type="radio" id="Gender" name="Gender" value="Female"/>Female
+                <input type="radio" id="Gender" name="Gender" value="Others"/>Others
+                <br><br>
+            <label>DOB:
+                <input type="date" name="dob" placeholder="eg:01-jan-2000"><br><br>
+            </label>
+            <label>Email:
+                <input type="email" name="email" placeholder="eg:abc@gmail.com"><br><br>
+            </label>
+            <label>Eduacational Qualification:<br><br>
+                <input type="checkbox" name="SSLC">SSLC
+                <input type="checkbox" name="12th">12th
+                <input type="checkbox" name="Bachelor's">Bachelor's
+                <input type="checkbox" name="Masters">Master's<br><br>
+                Specify:
+                
+
+            </label>
+            <label>Place:
+                <input type="text" name="place" placeholder="place of residence"><br><br>
+            </label>
+            <label>District:
+                <select>
+                    <option value="kasaragod">Kasaragod</option>
+                    <option value="kannur">Kannur</option>
+                    <option value="kozhikkode">Kozhikkode</option>
+                    <option value="Wayanad">Wayanad</option>
+                    <option value="Malappuram">Malappuram</option>
+                    <option value="Palakkad">Palakkad</option>
+                    <option value="Thrissur">Thrissur</option>
+                    <option value="Alappuzha">Alappuzha</option>
+                    <option value="Ernakulam">Ernakulam</option>
+                    <option value="Kottayam">Kottayam</option>
+                    <option value="Pathanamthitta">Pathanamthitta</option>
+                    <option value="Idukki">Idukki</option>
+                    <option value="Kollam">Kollam</option>
+                    <option value="Thiruvanthapuram">Thiruvananthapuram</option>
+                </select><br><br>
+            </label>
+            <label>Pin:
+                <input type="number" name="pin" placeholder="eg:123-456"><br><br>
+            </label>
+            <label>Post:
+                <input type="text" name="post" placeholder="nearest postoffice"><br><br>
+            </label>
+            <label>Phone:
+                <input type="number" name="phone" placeholder="must be 10 digits"><br><br><br>
+            </label>
+            <button type="SUBMIT">SUBMIT</button>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
